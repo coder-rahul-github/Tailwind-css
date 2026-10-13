@@ -1,33 +1,22 @@
-import { Link, Route, Routes } from 'react-router'
+import { Route, Routes } from 'react-router'
 import Transition from './assets/components/Transition';
-import Home from './assets/components/Home';
+import Contentlist from './assets/components/Contentlist';
+import Grid from './assets/components/Grid';
 
 
 function App() {
-  const content=
-    [{label:"transition&transformation", href:"/transition"},
-    {label:"Home", href:"/Home"},
-      
-    ]
+  
   
   return(
-    <div className='bg-pink-200 h-screen'>
-      <h1>tailwindcss</h1>
-      <ul>
-      {content.map((item)=>(
-        <li key={item.label}>
-          <Link to={item.href}><h1 className='text-red-500'>{item.label}</h1></Link>
-        </li>
-        
-      ))}
-      </ul>
+    <ul>
       <Routes>
+        <Route path='/' element={<Contentlist/>}/>
 
-        <Route path="/Home"  element={<Home/>} />
         <Route path="/Transition"  element={<Transition/>} />
+        <Route path="/Grid"  element={<Grid/>} />
       </Routes>
       
-    </div>
+    </ul>
   );
 }
 
