@@ -5,6 +5,7 @@ function Contentlist() {
     const content=
     [{label:"transition&transformation", href:"/transition"},
       {label:"Grid",href:"/Grid"},
+      {label:"Animate",href:"/Animate"},
     ]
     return (
         <div className='bg-amber-300 h-screen p-8'>
