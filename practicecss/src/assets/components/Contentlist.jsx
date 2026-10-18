@@ -6,6 +6,7 @@ function Contentlist() {
     [{label:"transition&transformation", href:"/transition"},
       {label:"Grid",href:"/Grid"},
       {label:"Animate",href:"/Animate"},
+      {label:"Border",href:"/Border"},
     ]
     return (
         <div className='bg-amber-300 h-screen p-8'>
