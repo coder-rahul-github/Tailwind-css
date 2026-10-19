@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 function Border() {
     return (
         <div className='m-10'>
-            <button className='bg-gray-700 text-white px-4 py-4 rounded-xl border-teal-200 hover:gray-900'
-            >← back to list</button>
+            <Link to="/" className='bg-gray-700 text-white px-4 py-4 rounded-xl border-teal-200 hover:gray-900'
+            >← back to list</Link>
         <div className='m-10 border-4 size-32 rounded-full bg-white border-fuchsia-600'></div>
         <div className='m-10 border-4 size-32 rounded-t-full bg-white border-cyan-500'></div>
         <div className='m-10 border-4 size-32 rounded-b-full bg-white border-cyan-500'></div>

@@ -4,6 +4,7 @@ import Contentlist from './assets/components/Contentlist';
 import Grid from './assets/components/Grid';
 import Animate from './assets/components/Animate';
 import Border from './assets/components/Border';
+import Gallery from './assets/components/Gallery';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Grid"  element={<Grid/>} />
         <Route path="/Animate"  element={<Animate/>} />
         <Route path="/Border"  element={<Border/>} />
+        <Route path="/Gallery"  element={<Gallery/>} />
       </Routes>
       
     </ul>
