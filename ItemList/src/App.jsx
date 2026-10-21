@@ -1,19 +1,22 @@
 import { useState } from 'react'
-import Items from './assets/Component/items'
-
+//import {Items} from './assets/Component/Items'
 
 
 function App() {
-  //const [count, setCount] = useState(data)
+  //const [search,setSearch] = useState(Items)
 
   return (
     <div >
       <center>
-        <div className='grid grid-cols-1'><input className='border-2 border-black '/></div>
-      <div className='grid grid-cols-3'>
-        <p>item</p>
-        <p>item</p>
-        <p>img</p>
+        <div className='grid grid-cols-1'><input className='w-94 ml-94 border-2 border-black ' placeholder='enter your choice'/></div>
+      
+        <div className='grid grid-cols-3'>
+        <p>data</p>
+        <p>data</p>
+        <p>data</p>
+        <p>data</p>
+        <p>data</p>
+        <p>data</p>
       </div>
       </center>
       
